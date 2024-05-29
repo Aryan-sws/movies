@@ -25,11 +25,6 @@ const HomePage = () => {
     getMovie("superman", currentPage);
   }, [searchTerm, currentPage]);
 
-  //   const handleSearchClick = () => {
-  //     setCurrentPage(1);
-  //     getMovie(searchTerm, 1);
-  //   };
-
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
   };
