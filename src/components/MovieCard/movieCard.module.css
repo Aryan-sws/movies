@@ -1,0 +1,39 @@
+.single_movie {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0, 1);
+  margin-bottom: 1.5rem;
+}
+
+.text_area {
+  background-color: #343739;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  padding: 1rem;
+}
+.text_area h3 {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-family: var(--font-roboto);
+}
+.text_area ul {
+  padding-left: 0;
+}
+.text_area ul li {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-raleway);
+}
+
+.single_movie:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
